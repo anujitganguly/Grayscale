@@ -4,7 +4,7 @@ import os
 path = ('elefante/')
 dirs = os.listdir( path )
 
-def grey():
+def rgray():
     for item in dirs:
         if os.path.isfile(path+item):
             im = Image.open(path+item)
@@ -13,4 +13,4 @@ def grey():
             imConv = img.convert('1') 
             imConv.save(f + 'result.jpg','JPEG', quality = 100)
             
-grey()
+rgray()
