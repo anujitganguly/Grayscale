@@ -4,5 +4,9 @@ IDE: Spyder
 Dataset: Downloaded from Keras
 
 DESCRIPTION:
+This Repository has two python files. One is to convert a folder of images to grayscale another one is to resize and convert the images to grayscale.
+grey.py - This file converts images to Grayscale ONLY.
 The “path” is actually the folder location which is in the “Working Directory”. “Working Directory” address can be seen on the top-right side of the Spyder window. Here “gatto” is a folder name that consist of images and the resized images are also being stored in “gatto” folder.
-This worked perfectly. It converted all files to their respective black and white forms. Initially the folder had 1991 images and after running the code, it had 3882 i.e., exactly double images. Unlike the most popular way to grayscale images i.e., by OpenCV, here I have used pillow because it works perfectly fine in Anaconda Navigator os Spyder ide. The code is tested in both Linux and Windows and in both places it worked perfectly fine. Sometimes it may take some time to convert all images but if the ide is not disturbed till conversion, then it will surely give expected results. 
+
+resizedGray.py - This file changes the resolution to 100/100 and then converts the images to black & white. 
+Here also similar method was used and the folder in which I was working was "elefante".
