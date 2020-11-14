@@ -10,3 +10,5 @@ The “path” is actually the folder location which is in the “Working Direct
 
 resizedGray.py - This file changes the resolution to 100/100 and then converts the images to black & white. 
 Here also similar method was used and the folder in which I was working was "elefante".
+
+Overall it is working Fine
